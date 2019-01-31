@@ -1,5 +1,6 @@
 //
 //  ViewController.swift
+//  High Point University
 //  QuizApp
 //
 //  Created by Brandon Tate on 1/27/19.
@@ -20,12 +21,23 @@ class ViewController: UIViewController {
     let questions: [String] = [
         "What is 7+7?",
         "What is the capital of Vermont?",
-        "What is cognac made from?"
+        "What is cognac made from?",
+        "What is HPU's school mascot?",
+        "What is a male deer called?",
+        "How many eggs are in a dozen?",
+        "Who won the first (and second) Super Bowl?",
+        "What company has a check mark as its logo?"
     ]
     let answers: [String] = [
        "14",
        "Montpelier",
-       "Grapes"
+       "Grapes",
+       "Panther",
+       "Buck",
+       "12",
+       "Green Bay Packers",
+       "Nike"
+       
     ]
     var currentQuestionIndex: Int = 0
     

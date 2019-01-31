@@ -17,13 +17,38 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="High Point University" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xqq-uJ-85E">
+                                <rect key="frame" x="19" y="271" width="337" height="42"/>
+                                <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Brandon Tate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7EF-Hg-xXg">
+                                <rect key="frame" x="80" y="331" width="215" height="42"/>
+                                <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7EF-Hg-xXg" secondAttribute="bottom" constant="294" id="D1T-VL-Rn9"/>
+                            <constraint firstItem="Xqq-uJ-85E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="MNa-9I-QlR"/>
+                            <constraint firstItem="7EF-Hg-xXg" firstAttribute="top" secondItem="Xqq-uJ-85E" secondAttribute="bottom" constant="18" id="MdL-Qh-hSR"/>
+                            <constraint firstItem="Xqq-uJ-85E" firstAttribute="centerX" secondItem="7EF-Hg-xXg" secondAttribute="centerX" id="cVO-4t-8za"/>
+                            <constraint firstItem="Xqq-uJ-85E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="251" id="cwX-bI-UdE"/>
+                            <constraint firstItem="7EF-Hg-xXg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="jB4-qd-rkT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7EF-Hg-xXg" secondAttribute="trailing" constant="80" id="rxP-LK-xAB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xqq-uJ-85E" secondAttribute="trailing" constant="19" id="sSK-ve-Q3H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7EF-Hg-xXg" secondAttribute="bottom" constant="304" id="vZi-Rg-C0a"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
 </document>
